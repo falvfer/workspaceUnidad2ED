@@ -26,7 +26,7 @@ public class MiClase {
 	}
 	
 	public void func1() {
-		String nombreFuncion = "func1";
+		String nombreFuncion = "func1a";
 		System.out.println("Soy la " + nombreFuncion);
 	}
 	
