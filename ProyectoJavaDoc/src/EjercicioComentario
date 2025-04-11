@@ -1,0 +1,10 @@
+Para el proyecto JavaDoc.
+
+Comentar la clase Profesor y Conserje,
+comentar constructores y métodos.
+
+1. Usar etiquetas html
+2. Usar la etiqueta @see
+3. Usar @link y @linkplain
+4. Inventar un método deprecated ponerNotas() en 
+la clase profesor
