@@ -57,12 +57,6 @@ public enum EnumEmpleadosEducacion {
 	 */
 	private String funcion;
 
-	/**
-	 * Constructor de la Enumeracion de empleados
-	 * @param id
-	 * @param descCorta
-	 * @param funcion
-	 */
 	EnumEmpleadosEducacion(int id, String descCorta, String funcion) {
 		this.id = id;
 		this.descCorta = descCorta;
@@ -81,10 +75,6 @@ public enum EnumEmpleadosEducacion {
 	 *
 	 */
 
-	/**
-	 * Metodo getter para conseguir el ID
-	 * @return (int) -> ID
-	 */
 	public int getId() {
 		return id;
 	}

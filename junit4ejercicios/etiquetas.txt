@@ -1,0 +1,31 @@
+Esto indica que el metodo es de testeo
+	@Test
+
+Ignorar un test temporalmente
+	@Ignore
+
+Esto indica que se tiene que ejecutar antes o después de cada uno de los @Test
+	@Before
+	@After
+
+Esto se ejecuta antes o después de todos los testeos
+	@BeforeClass
+	@AfterClass
+
+Esto indica que el resultado esperado es que lance una excepcion
+	@Test(expected = IllegalArgumentException.class)
+
+Esto indica que es una clase parametrizada, para este tipo de clases de testeo es importante
+usar un método Parameters que devuelva un Object[][] o coleccion. Todo esto junto al constructor
+para que pueda recibir estos datos y hacer un set de @Test por cada dato.
+	@RunWith(Parameterized.class)
+	@Parameters
+
+Unas de las operaciones que se pueden usar.
+	assertEquals(10, calc.sumar(5, 5))
+	assertNotEquals()
+	assertNull()
+	assertNotNull()
+	assertTrue()
+	assertFalse()
+	assertThrows() Este es mejor usar (expected = ...)

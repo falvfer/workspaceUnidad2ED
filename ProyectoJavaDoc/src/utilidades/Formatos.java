@@ -1,8 +1,5 @@
 package utilidades;
 
-/**
- * Esta clase se usará para dar formato a distintos valores.
- */
 public class Formatos {
 
 
