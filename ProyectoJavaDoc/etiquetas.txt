@@ -1,0 +1,29 @@
+Meta Annotations
+@author  Ex: @author Jane Doe
+@version  Ex: @version v1.0-alpha
+@since  Ex: @since 2015-09-22
+
+Method Annotations
+@param parameter description  Ex: @param img the image to be passed
+@return parameter description  Ex: @return img the image to be returned
+@throws/exception description  Ex: @throws IOException If I/O exception occurred
+
+Deprecated
+@deprecated deprecated-text(optional)  Ex: @deprecated since version v1.0
+
+Linking
+@see reference  Ex: @see package.ClassA/url/string
+{@link package.class#member label}  Ex: {@link URL}/{@link ImageObserver} This is descriptive text
+@serial/serialField/serialData  Ex: @serialField Field1
+
+_______________________________________________________________________________
+ORDEN
+@author (classes and interfaces)
+@version (classes and interfaces)
+@param (methods and constructors)
+@return (methods)
+@exception (@throws from Javadoc 1.2)
+@see (If multiple @see, then order according to distance from current file)
+@since (Follow format throughout document)
+@serial (or @serialField or @serialData)
+@deprecated (see How and When To Deprecate APIs)
